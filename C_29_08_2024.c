@@ -54,25 +54,25 @@ char* analyser_taille(float taille) {
     return message;
 }
 
-// Fonction main combinée avec toutes les analyses
+// Fonction main 
 int main() {
     int age;
     float poids, taille;
 
-    // Demande et analyse de l'âge
+    // Analyse de l'âge
     printf("Veuillez entrer votre âge : ");
-    scanf("%d", &age);  // Lit l'âge saisi par l'utilisateur
-    printf("%s\n", analyser_age(age));  // Affiche le message analysé
+    scanf("%d", &age);  
+    printf("%s\n", analyser_age(age));  
 
-    // Demande et analyse du poids
+    // Analyse du poids
     printf("Veuillez entrer votre poids (en kg) : ");
-    scanf("%f", &poids);  // Lit le poids saisi par l'utilisateur
-    printf("%s\n", analyser_poids(poids));  // Affiche le message analysé
-
-    // Demande et analyse de la taille
+    scanf("%f", &poids);  
+    printf("%s\n", analyser_poids(poids));  
+    
+    // Analyse de la taille
     printf("Veuillez entrer votre taille (en m) : ");
-    scanf("%f", &taille);  // Lit la taille saisie par l'utilisateur
-    printf("%s\n", analyser_taille(taille));  // Affiche le message analysé
+    scanf("%f", &taille);  
+    printf("%s\n", analyser_taille(taille));  
 
     return 0;
 }
