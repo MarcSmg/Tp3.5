@@ -1,6 +1,7 @@
- #include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 
+// Fonction pour analyser l'âge
 char* analyser_age(int age) {
     static char message[50];
     
@@ -19,15 +20,59 @@ char* analyser_age(int age) {
     return message;
 }
 
+// Fonction pour analyser le poids
+char* analyser_poids(float poids) {
+    static char message[50];
+    
+    if (poids < 50) {
+        strcpy(message, "Vous êtes léger.");
+    } else if (poids >= 50 && poids <= 80) {
+        strcpy(message, "Vous avez un poids moyen.");
+    } else if (poids > 80) {
+        strcpy(message, "Vous avez un poids élevé.");
+    } else {
+        strcpy(message, "Poids invalide.");
+    }
+    
+    return message;
+}
+
+// Fonction pour analyser la taille
+char* analyser_taille(float taille) {
+    static char message[50];
+    
+    if (taille < 1.50) {
+        strcpy(message, "Vous êtes de petite taille.");
+    } else if (taille >= 1.50 && taille <= 1.80) {
+        strcpy(message, "Vous avez une taille moyenne.");
+    } else if (taille > 1.80) {
+        strcpy(message, "Vous êtes de grande taille.");
+    } else {
+        strcpy(message, "Taille invalide.");
+    }
+    
+    return message;
+}
+
+// Fonction main combinée avec toutes les analyses
 int main() {
     int age;
+    float poids, taille;
 
+    // Demande et analyse de l'âge
     printf("Veuillez entrer votre âge : ");
     scanf("%d", &age);  // Lit l'âge saisi par l'utilisateur
+    printf("%s\n", analyser_age(age));  // Affiche le message analysé
 
-    // Appelle la fonction analyser_age et affiche le message retourné
-    printf("%s\n", analyser_age(age));
+    // Demande et analyse du poids
+    printf("Veuillez entrer votre poids (en kg) : ");
+    scanf("%f", &poids);  // Lit le poids saisi par l'utilisateur
+    printf("%s\n", analyser_poids(poids));  // Affiche le message analysé
+
+    // Demande et analyse de la taille
+    printf("Veuillez entrer votre taille (en m) : ");
+    scanf("%f", &taille);  // Lit la taille saisie par l'utilisateur
+    printf("%s\n", analyser_taille(taille));  // Affiche le message analysé
 
     return 0;
 }
-
