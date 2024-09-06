@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <string.h>
+#include <time.h>
+#include <stdbool.h> 
+
+// Partie 1: Analyse des caractéristiques
 
 // Fonction pour analyser l'âge
 char* analyser_age(int age) {
@@ -74,5 +78,5 @@ int main() {
     scanf("%f", &taille);  
     printf("%s\n", analyser_taille(taille));  
 
-    return 0;
+    printf("Mhm. -Marc-");
 }
