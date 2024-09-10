@@ -19,7 +19,7 @@ elif delta == 0:
     x = -b / (2*a)
     print("L'équation a une racine double :", x)
 else:
-    print("L'équation n'a pas de racines réelles.")
-print("Bye")
+    print("L'équation n'a pas de racines réelles.\n")
+print("Résolution d'équation du seconde degré\n")
 print("Hehe\n")
 print("<(￣▽￣)／\n-MarcSmg-\n\n")

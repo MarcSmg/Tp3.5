@@ -9,7 +9,7 @@ int compare(const void *a, const void *b) {
 int main() {
     int n, i;
     double *arr;
-
+    printf("Tri de nombres\n")
     printf("Entrez le nombre d'éléments : ");
     scanf("%d", &n);
 
@@ -30,6 +30,9 @@ int main() {
     }
 
     free(arr);
-
-    printf("Now I'm out. Bye.-Marc-");
+    printf("Tri de nombres\n")
+    printf("Now I'm out.\n");
+    printf("Hehe\n");
+    printf("<(￣▽￣)／\n-MarcSmg-\n\n");
+   
 }

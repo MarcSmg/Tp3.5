@@ -46,7 +46,12 @@ int main() {
         scanf("%d", &editedValue);
         if (editedValue == 0) break;
     }
-
+    printf("\n");
     printf("Bye bye ! (^o^)丿\n");
+    printf("\n");
+    printf("Le nombre mystère V1.0\n");
+    printf("Hehe\n");
+    printf("<(￣▽￣)／\n-MarcSmg-\n\n");
+   
     return EXIT_SUCCESS;
 }

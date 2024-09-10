@@ -64,6 +64,7 @@ int main() {
     float poids, taille;
 
     // Analyse de l'âge
+    printf("Analyse des caractéristiques physiques\n");
     printf("Veuillez entrer votre âge : ");
     scanf("%d", &age);  
     printf("%s\n", analyser_age(age));  
@@ -78,5 +79,9 @@ int main() {
     scanf("%f", &taille);  
     printf("%s\n", analyser_taille(taille));  
 
-    printf("Mhm. -Marc-");
+    printf("Mhm.\n");
+    printf("Analyse des caractéristiques physiques\n");
+    printf("Hehe\n");
+    printf("<(￣▽￣)／\n-MarcSmg-\n\n");
+   
 }

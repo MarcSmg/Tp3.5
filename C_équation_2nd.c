@@ -6,7 +6,9 @@ int main() {
     double a, b, c; // Coefficients de l'équation
     double delta; // Discriminant
     double solution1, solution2; // Solutions de l'équation
-
+    
+     printf("Equation du second degré\n");
+     
     // Demande des coefficients a, b et c à l'utilisateur
     printf("Entrez le coefficient a (non nul) : ");
     scanf("%lf", &a);
