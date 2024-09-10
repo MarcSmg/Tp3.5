@@ -25,4 +25,7 @@ print("Minimum:", resultats[2])
 print("Maximum:", resultats[3])
 print("Temps d'exécution:", resultats[4], "secondes")
 print("Mémoire utilisée (peak):", round(resultats[5] / 1024**2, 2), "Mo")
-
+print("Job's done.")
+print("Hehe\n")
+print("<(￣▽￣)／\n-MarcSmg-\n\n")
+   

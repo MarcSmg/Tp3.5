@@ -20,3 +20,6 @@ elif delta == 0:
     print("L'équation a une racine double :", x)
 else:
     print("L'équation n'a pas de racines réelles.")
+print("Bye")
+print("Hehe\n")
+print("<(￣▽￣)／\n-MarcSmg-\n\n")

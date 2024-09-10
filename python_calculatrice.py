@@ -67,3 +67,8 @@ while True:
     resultat = effectuer_operation(operation, a, b)
     historique.append(f"{a} {operation} {b} = {resultat}")
     print("Résultat :", resultat)
+    print("See ya!\n")
+    print("Hehe\n")
+    print("<(￣▽￣)／\n-MarcSmg-\n\n")
+   
+    
